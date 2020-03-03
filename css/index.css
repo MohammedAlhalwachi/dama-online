@@ -1,0 +1,72 @@
+html, body {
+    overflow: hidden;
+}
+
+body{
+    background: #41342b;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /*font-family: 'Aref Ruqaa', serif;*/
+    font-family: 'Reem Kufi', sans-serif;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    position: fixed; top: 0; left: 0; right:0; bottom: 0;
+}
+
+#board-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#board {
+    position: relative;
+    
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border-bottom: 5px solid #a08e6a;
+    overflow: hidden;
+
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 12.5%;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.5%;
+    border-right: 1px solid #a08e6a;
+    border-bottom: 1px solid #a08e6a;
+    background: #E7D2A7;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.cell.can-eat{
+    background: #e6aa98;
+}
+
+.cell.playable{
+    background: #aec3e7;
+}
+
+#pieces-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+}

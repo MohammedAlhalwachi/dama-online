@@ -1,0 +1,95 @@
+{
+	"frames": {
+		"BlackDama.png": {
+			"frame": {
+				"x": 2,
+				"y": 2,
+				"w": 1000,
+				"h": 1000
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 1000
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 1000
+			}
+		},
+		"BlackDamaKing.png": {
+			"frame": {
+				"x": 1006,
+				"y": 2,
+				"w": 1000,
+				"h": 1000
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 1000
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 1000
+			}
+		},
+		"YellowDama.png": {
+			"frame": {
+				"x": 2,
+				"y": 1006,
+				"w": 1000,
+				"h": 1000
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 1000
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 1000
+			}
+		},
+		"YellowDamaKing.png": {
+			"frame": {
+				"x": 1006,
+				"y": 1006,
+				"w": 1000,
+				"h": 1000
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1000,
+				"h": 1000
+			},
+			"sourceSize": {
+				"w": 1000,
+				"h": 1000
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 2008,
+			"h": 2008
+		},
+		"scale": "1"
+	}
+}
