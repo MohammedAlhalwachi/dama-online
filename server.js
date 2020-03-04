@@ -85,8 +85,9 @@ io.on('connection', function(socket){
     // });
 });
 
+const port = process.env.PORT || 80;
+console.log(port);
 
-
-http.listen(80, function(){
-    console.log('listening on *:80');
+http.listen(port, function(){
+    console.log('listening on *:' + port);
 });
