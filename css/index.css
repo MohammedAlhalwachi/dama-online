@@ -7,7 +7,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
+    
     /*font-family: 'Aref Ruqaa', serif;*/
     font-family: 'Reem Kufi', sans-serif;
     overflow: hidden;
@@ -69,4 +70,30 @@ body{
     left: 0;
 
     pointer-events: none;
+}
+
+.menu{
+    position: absolute;
+    
+    width: 95vw;
+    height: 95vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #E7D2A7;
+    border-radius: 20px;
+    border: 1px solid #a08e6a;
+
+    pointer-events: none;
+}
+
+#win{
+    display: none;
+    font-family: 'Cairo', sans-serif;
+}
+
+.lds-default div{
+    background: #41342b;
 }
