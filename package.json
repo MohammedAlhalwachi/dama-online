@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "dama game",
   "engines": {
-    "node": "12.x"
+    "node": "10.x"
   },
   "dependencies": {
     "express": "^4.17.1",
