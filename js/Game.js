@@ -10,7 +10,7 @@ const   loader = PIXI.Loader.shared,
         autoResize: true   // default: false
     }),
     cellSize = document.getElementsByClassName('cell')[0].getBoundingClientRect().width,
-    cellPadding = cellSize * 0.1,
+    cellPadding = cellSize * 0.15,
     damaSize = cellSize - cellPadding;
 
 function removeUndefined(arr) {
@@ -33,13 +33,13 @@ class Dama extends Sprite{
         let yellow = type === 'yellow';
 
         if(black && !king)
-            texture = TextureCache['BlackDama.png'];
+            texture = TextureCache['BlackDama.v1.png'];
         else if(black && king)
-            texture = TextureCache['BlackDamaKing.png'];
+            texture = TextureCache['BlackDamaKing.v1.png'];
         else if(yellow && !king)
-            texture = TextureCache['YellowDama.png'];
+            texture = TextureCache['YellowDama.v1.png'];
         else if(yellow && king)
-            texture = TextureCache['YellowDamaKing.png'];
+            texture = TextureCache['YellowDamaKing.v1.png'];
 
         super(texture);
 
@@ -70,13 +70,13 @@ class Dama extends Sprite{
         let king = this.king;
 
         if(black && !king)
-            return TextureCache['BlackDama.png'];
+            return TextureCache['BlackDama.v1.png'];
         else if(black && king)
-            return TextureCache['BlackDamaKing.png'];
+            return TextureCache['BlackDamaKing.v1.png'];
         else if(yellow && !king)
-            return TextureCache['YellowDama.png'];
+            return TextureCache['YellowDama.v1.png'];
         else if(yellow && king)
-            return TextureCache['YellowDamaKing.png'];
+            return TextureCache['YellowDamaKing.v1.png'];
     }
 
     makeKing(){
@@ -1020,7 +1020,7 @@ class Game {
         this.piecesContainer.appendChild(app.view);
 
         loader
-            .add("assets/spritesheet.json")
+            .add("assets/spritesheet.v1.json")
             .load(this.spriteLoaded.bind(this));
     }
 

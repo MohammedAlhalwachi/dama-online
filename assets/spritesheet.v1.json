@@ -1,94 +1,94 @@
 {
 	"frames": {
-		"BlackDama.png": {
+		"BlackDama.v1.png": {
 			"frame": {
 				"x": 2,
 				"y": 2,
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			},
 			"sourceSize": {
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			}
 		},
-		"BlackDamaKing.png": {
+		"BlackDamaKing.v1.png": {
 			"frame": {
-				"x": 1006,
+				"x": 1026,
 				"y": 2,
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			},
 			"sourceSize": {
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			}
 		},
-		"YellowDama.png": {
+		"YellowDama.v1.png": {
 			"frame": {
 				"x": 2,
-				"y": 1006,
-				"w": 1000,
-				"h": 1000
+				"y": 1026,
+				"w": 1020,
+				"h": 1020
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			},
 			"sourceSize": {
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			}
 		},
-		"YellowDamaKing.png": {
+		"YellowDamaKing.v1.png": {
 			"frame": {
-				"x": 1006,
-				"y": 1006,
-				"w": 1000,
-				"h": 1000
+				"x": 1026,
+				"y": 1026,
+				"w": 1020,
+				"h": 1020
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			},
 			"sourceSize": {
-				"w": 1000,
-				"h": 1000
+				"w": 1020,
+				"h": 1020
 			}
 		}
 	},
 	"meta": {
 		"app": "http://www.codeandweb.com/texturepacker",
 		"version": "1.0",
-		"image": "spritesheet.png",
+		"image": "spritesheet.v1.png",
 		"format": "RGBA8888",
 		"size": {
-			"w": 2008,
-			"h": 2008
+			"w": 2048,
+			"h": 2048
 		},
 		"scale": "1"
 	}

@@ -6,6 +6,9 @@ let io = require('socket.io')(http);
 let RoomsManager = require('./js/RoomsManager.js');
  
 app.use(express.static(__dirname + '/'));
+// app.use(express.static(__dirname + '/css'));
+// app.use(express.static(__dirname + '/js'));
+// app.use(express.static(__dirname + '/css'));
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
