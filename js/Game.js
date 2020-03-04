@@ -349,10 +349,10 @@ class Board {
         if(countYellow === 0 || countBlack === 0)
             return true;
 
-        if(countYellow === 1 && countYellowMan === 1 && countBlackKing === 1)
+        if(countYellow === 1 && countYellowMan === 1 && countBlack === 1 && countBlackKing === 1)
             return true;
 
-        if(countBlack === 1 && countBlackMan === 1 && countYellowKing === 1)
+        if(countBlack === 1 && countBlackMan === 1 && countYellow === 1 &&countYellowKing === 1)
             return true;
 
         return false;

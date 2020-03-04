@@ -85,13 +85,20 @@ body{
     background: #E7D2A7;
     border-radius: 20px;
     border: 1px solid #a08e6a;
+    font-family: 'Cairo', sans-serif;
 
     pointer-events: none;
 }
 
+#loading .text{
+    direction: rtl;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
 #win{
     display: none;
-    font-family: 'Cairo', sans-serif;
+    /*font-family: 'Cairo', sans-serif;*/
 }
 
 .lds-default div{
