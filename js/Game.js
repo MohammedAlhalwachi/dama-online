@@ -339,13 +339,6 @@ class Board {
             }
         });
 
-        // console.log('Yellow: ', countYellow);
-        // console.log('Yellow Man: ', countYellowMan);
-        // console.log('Yellow King: ', countYellowKing);
-        // console.log('Black: ', countBlack);
-        // console.log('Black Man: ', countBlackMan);
-        // console.log('Black King: ', countBlackKing);
-
         if(countYellow === 0 || countBlack === 0)
             return true;
 

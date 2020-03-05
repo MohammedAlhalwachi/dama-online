@@ -162,14 +162,10 @@
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/socket.io-client@2/dist/socket.io.js"></script>
-<script src="js/Game.js"></script>
+<script src="dist/Game.js"></script>
 
 <script>
-    let socket = io(document.location.href, {
-        // query: {
-        //     requestedRoomId: 'room-' + '111'
-        // }
-    });
+    let socket = io(document.location.href);
 
     let menu = document.getElementById('loading');
     
@@ -190,9 +186,6 @@
         }else
             console.log(`room (${roomId}) is full.`);
     });
-
-    
-
 
     socket.on('close', function () {
         socket.disconnect();

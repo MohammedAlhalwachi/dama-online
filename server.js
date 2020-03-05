@@ -4,11 +4,8 @@ let http = require('http').createServer(app);
 let io = require('socket.io')(http);
 
 let RoomsManager = require('./js/RoomsManager.js');
- 
+
 app.use(express.static(__dirname + '/'));
-// app.use(express.static(__dirname + '/css'));
-// app.use(express.static(__dirname + '/js'));
-// app.use(express.static(__dirname + '/css'));
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
@@ -47,42 +44,6 @@ io.on('connection', function(socket){
             console.log(`disconnected, room (${room.id}) is closed`);
         });
     });
-    
-    
-    // let requestedRoomId = socket.handshake.query.requestedRoomId;
-    // let roomId; //room-123
-    //
-    // if(requestedRoomId !== undefined){
-    //     roomId = requestedRoomId;
-    // }else{
-    //     roomId = randomRoomId();
-    // }
-    //
-    // let room = roomsManager.createRoom(roomId);
-    // let full = !room.addPlayer(socket);
-    //
-    // if(full){
-    //     io.to(socket).emit('full', function () {
-    //         socket.disconnect();
-    //     });
-    //     // room = roomsManager.createRoom(randomRoomId());
-    //     // room.addPlayer(socket);
-    // }
-    //
-    // room.ready();
-    //
-    //
-    // socket.on('command', function (commandObj) {
-    //     let command = commandObj.command;
-    //     let payload = commandObj.payload;
-    //
-    //     console.log(commandObj);
-    //     socket.broadcast.to(room.id).emit('command', commandObj);
-    // });
-    //
-    // socket.on('disconnect', function(){
-    //     roomsManager.closeRoom(room.id);
-    // });
 });
 
 const port = process.env.PORT || 80;
